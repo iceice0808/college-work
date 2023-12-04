@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>期末作業</title>
+<!--
+Fluid Gallery Template
+http://www.templatemo.com/tm-500-fluid-gallery
+-->
+    <!-- load stylesheets -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600">  
+    <!-- Google web font "Open Sans" -->
+    <link rel="stylesheet" href="Font-Awesome-4.7/css/font-awesome.min.css">                
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">                                      
+    <!-- Bootstrap style -->
+    <link rel="stylesheet" href="css/hero-slider-style.css">                              
+    <!-- Hero slider style (https://codyhouse.co/gem/hero-slider/) -->
+    <link rel="stylesheet" href="css/magnific-popup.css">                                 
+    <!-- Magnific popup style (http://dimsemenov.com/plugins/magnific-popup/) -->
+    <link rel="stylesheet" href="css/templatemo-style.css">                                   
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+          <![endif]-->
+
+        <!-- These two JS are loaded at the top for gray scale including the loader. -->
+
+        <script src="js/jquery-1.11.3.min.js"></script>
+        <!-- jQuery (https://jquery.com/download/) -->
+
+        <script>
+		
+            var tm_gray_site = false;
+            
+            if(tm_gray_site) {
+                $('html').addClass('gray');
+            }
+            else {
+                $('html').removeClass('gray');   
+            }
+        </script>
+</head>
+
+    <body>
+        
+        <!-- Content -->
+        <div class="cd-hero">
+
+            <!-- Navigation -->        
+            <div class="cd-slider-nav">
+                <nav class="navbar">
+                    <div class="tm-navbar-bg">
+                        
+                        <a class="navbar-brand text-uppercase" href="https://www.ea.com/zh-tw/games/apex-legends/about/characters">APEX legends</a>
+
+                        <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#tmNavbar">
+                            &#9776;
+                        </button>
+                        <div class="collapse navbar-toggleable-md text-xs-center text-uppercase tm-navbar" id="tmNavbar">
+                            <ul class="nav navbar-nav">
+                                <li class="nav-item active selected">
+                                    <a class="nav-link" href="#0" data-no="1">角色一覽 <span class="sr-only">(current)</span></a>
+                                </li>                                
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#0" data-no="2">角色介紹</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#0" data-no="3">徽章一覽</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#0" data-no="4">遊戲排位制度
+
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#0" data-no="5">官方影片</a>
+                                </li>
+                            </ul>
+                        </div>                        
+                    </div>
+
+                </nav>
+            </div> 
+
+            <ul class="cd-hero-slider">
+
+                <!-- Page 1 Gallery One -->
+                <li class="selected">                    
+                    <div class="cd-full-width">
+                        <div class="container-fluid js-tm-page-content" data-page-no="1" data-page-type="gallery">
+                            <div class="tm-img-gallery-container">
+                                <div class="tm-img-gallery gallery-one">
+                                <!-- Gallery One pop up connected with JS code below -->
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/尋血犬.png" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title"><span><strong>尋血犬</strong></span></h2>
+                                                <p class="tm-figure-description">Bloodhound</p>
+                                                <a href="img/尋血犬.png">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/直布羅陀.png" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title"><span><strong>直布羅陀</strong></span></h2>
+                                                <p class="tm-figure-description">Gibraltar</p>
+                                                <a href="img/直布羅陀.png">View more</a>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/生命線.png" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title"><span><strong>生命線</strong></span></h2>
+                                                <p class="tm-figure-description">Lifeline</p>
+                                                <a href="img/生命線.png">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/探路者.png" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title"><span><strong>探路者</strong></span></h2>
+                                                <p class="tm-figure-description">Pathfinder</p>
+                                                <a href="img/探路者.png">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>  
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/惡靈.png" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title"><span><strong>惡靈</strong></span></h2>
+                                                <p class="tm-figure-description">Wraith</p>
+                                                <a href="img/惡靈.png">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/邦加羅爾.png" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title"><span><strong>邦加羅爾</strong></span></h2>
+                                                <p class="tm-figure-description">Bangalore</p>
+                                                <a href="img/邦加羅爾.png">View more</a>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/腐蝕.png" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title"><span><strong>腐蝕</strong></span></h2>
+                                                <p class="tm-figure-description">Caustic</p>
+                                                <a href="img/腐蝕.png">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/幻象.png" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title"><span><strong>幻象</strong></span></h2>
+                                                <p class="tm-figure-description">Mirage</p>
+                                                <a href="img/幻象.png">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>   
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/辛烷.png" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title"><span><strong>辛烷</strong></span></h2>
+                                                <p class="tm-figure-description">Octane</p>
+                                                <a href="img/辛烷.png">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/華森.png" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title"><span><strong>華森</strong></span></h2>
+                                                <p class="tm-figure-description">Wattson</p>
+                                                <a href="img/華森.png">View more</a>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/暗碼士.png" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title"><span><strong>暗碼士</strong></span></h2>
+                                                <p class="tm-figure-description">Crypto</p>
+                                                <a href="img/暗碼士.png">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/亡靈.png" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title"><span><strong>亡靈</strong></span></h2>
+                                                <p class="tm-figure-description">Revenant</p>
+                                                <a href="img/亡靈.png">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/蘿芭.png" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title"><span><strong>蘿芭</strong></span></h2>
+                                                <p class="tm-figure-description">Loba</p>
+                                                <a href="img/蘿芭.png">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/雷帕特.png" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title"><span><strong>蕾帕特</strong></span></h2>
+                                                <p class="tm-figure-description">Rampart</p>
+                                                <a href="img/雷帕特.png">View more</a>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/天際線.png" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title"><span><strong>天際線</strong></span></h2>
+                                                <p class="tm-figure-description">Horizon</p>
+                                                <a href="img/天際線.png">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/轟哥.png" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title"><span><strong>轟哥</strong></span></h2>
+                                                <p class="tm-figure-description">Fuse</p>
+                                                <a href="img/轟哥.png">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>                                                                       
+                                </div>                                 
+                            </div>
+                        </div>                                                    
+                    </div>                    
+                </li>
+
+                <!-- Page 2 Gallery Two -->
+                <li>                    
+                    <div class="cd-full-width">
+                        <div class="container-fluid js-tm-page-content" data-page-no="2" data-page-type="gallery">
+                            <div class="tm-img-gallery-container">
+                                <div class="tm-img-gallery gallery-two">
+                                <!-- Gallery Two pop up connected with JS code below -->
+                                    
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/尋血犬0.jpg" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title"><span><strong>尋血犬</strong></span></h2>
+                                                <p class="tm-figure-description">Bloodhound</p>
+                                                <a href="img/尋血犬0.jpg">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/直布羅陀0.jpg" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title"><span><strong>直布羅陀</strong></span></h2>
+                                                <p class="tm-figure-description">Gibraltar</p>
+                                                <a href="img/直布羅陀0.jpg">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/生命線0.jpg" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title"><span><strong>生命線</strong></span></h2>
+                                                <p class="tm-figure-description">Lifeline</p>
+                                                <a href="img/生命線0.jpg">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/探路者0.jpg" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title"><span><strong>探路者</strong></span></h2>
+                                                <p class="tm-figure-description">Pathfinder</p>
+                                                <a href="img/探路者0.jpg">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/惡靈0.jpg" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title"><span><strong>惡靈</strong></span></h2>
+                                                <p class="tm-figure-description">Wraith</p>
+                                                <a href="img/惡靈0.jpg">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/邦加羅爾0.jpg" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title"><span><strong>邦加羅爾</strong></span></h2>
+                                                <p class="tm-figure-description">Bangalore</p>
+                                                <a href="img/邦加羅爾0.jpg">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>  
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/腐蝕0.jpg" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title"><span><strong>腐蝕</strong></span></h2>
+                                                <p class="tm-figure-description">Caustic</p>
+                                                <a href="img/腐蝕0.jpg">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>  
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/幻象0.jpg" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title"><span><strong>幻象</strong></span></h2>
+                                                <p class="tm-figure-description">Mirage</p>
+                                                <a href="img/幻象0.jpg">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>  
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/辛烷0.jpg" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title"><span><strong>辛烷</strong></span></h2>
+                                                <p class="tm-figure-description">Octane</p>
+                                                <a href="img/辛烷0.jpg">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>  
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/華森0.jpg" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title"><span><strong>華森</strong></span></h2>
+                                                <p class="tm-figure-description">Wattson</p>
+                                                <a href="img/華森0.jpg">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>  
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/暗碼士0.jpg" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title"><span><strong>暗碼士</strong></span></h2>
+                                                <p class="tm-figure-description">Crypto</p>
+                                                <a href="img/暗碼士0.jpg">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>  
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/亡靈0.jpg" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title"><span><strong>亡靈</strong></span></h2>
+                                                <p class="tm-figure-description">Revenant</p>
+                                                <a href="img/亡靈0.jpg">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div> 
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/蘿芭0.jpg" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title"><span><strong>蘿芭</strong></span></h2>
+                                                <p class="tm-figure-description">Loba</p>
+                                                <a href="img/蘿芭0.jpg">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>  
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/雷帕特0.jpg" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title"><span><strong>蕾帕特</strong></span></h2>
+                                                <p class="tm-figure-description">Rampart</p>
+                                                <a href="img/雷帕特0.jpg">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>  
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/天際線0.jpg" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title"><span><strong>天際線</strong></span></h2>
+                                                <p class="tm-figure-description">Horizon</p>
+                                                <a href="img/天際線0.jpg">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>  
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/轟哥0.jpg" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title"><span><strong>轟哥</strong></span></h2>
+                                                <p class="tm-figure-description">Fuse</p>
+                                                <a href="img/轟哥0.jpg">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>  
+                                </div>                                 
+                            </div>
+                        </div>                      
+                    </div>
+                </li>
+
+                <!-- Page 3 Gallery Three -->
+                <li>
+                    <div class="cd-full-width">
+                        <div class="container-fluid js-tm-page-content" data-page-no="3" data-page-type="gallery">                        
+                            <div class="tm-img-gallery-container">
+                                <div class="tm-img-gallery gallery-three">
+                                <!-- Gallery Two pop up connected with JS code below -->
+                                    
+                                     <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/槌子.jpg" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title"><span><strong>英雄之怒</strong></span></h2>
+                                                <p class="tm-figure-description">在一場遊戲中造成2000點以上的傷害</p>
+                                                <a href="img/槌子.jpg   ">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/骷髏海.jpg" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title"><span><strong>英雄覺醒</strong></span></h2>
+                                                <p class="tm-figure-description">在一場遊戲中至少擊殺20名敵人</p>
+                                                <a href="img/骷髏海.jpg">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/頂尖獵殺者.jpg" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title"><span><strong>頂尖獵殺者</strong></span></h2>
+                                                <p class="tm-figure-description">在成為擊殺王的前提下贏得一盤遊戲</p>
+                                                <a href="img/頂尖獵殺者.jpg">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/暗殺者.jpg" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title"><span><strong>暗殺者</strong></span></h2>
+                                                <p class="tm-figure-description">遊玩5場遊戲並獲得5個以上的擊殺</p>
+                                                <a href="img/暗殺者.jpg">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/神槍手.jpg" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title"><span><strong>神槍手</strong></span></h2>
+                                                <p class="tm-figure-description">獲得一場遊戲的最後擊殺</p>
+                                                <a href="img/神槍手.jpg">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/雙職責.jpg" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title"><span><strong>雙職責</strong></span></h2>
+                                                <p class="tm-figure-description">在成為擊殺王和冠軍的情況下贏得一場遊戲</p>
+                                                <a href="img/雙職責.jpg">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/完美勝利.jpg" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title"><span><strong>完美勝利</strong></span></h2>
+                                                <p class="tm-figure-description">在小隊全員沒有被擊倒的情況下贏得一場遊戲</p>
+                                                <a href="img/完美勝利.jpg">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/爆頭高手.jpg" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title"><span><strong>爆頭高手</strong></span></h2>
+                                                <p class="tm-figure-description">在獲得5個爆頭擊殺的情況下贏得一場遊戲</p>
+                                                <a href="img/爆頭高手.jpg">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>    
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/迅速淘汰.jpg" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title"><span><strong>迅速淘汰</strong></span></h2>
+                                                <p class="tm-figure-description">在20秒內擊殺4名敵人</p>
+                                                <a href="img/迅速淘汰.jpg">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/增援招回.jpg" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title"><span><strong>增援召回</strong></span></h2>
+                                                <p class="tm-figure-description">從重生運輸艦降落後的10秒內擊殺一名敵人</p>
+                                                <a href="img/增援招回.jpg">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/小隊清掃.jpg" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title"><span><strong>小隊清掃</strong></span></h2>
+                                                <p class="tm-figure-description">擊殺敵方小隊的所有3名成員</p>
+                                                <a href="img/小隊清掃.jpg">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/三重.jpg" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title"><span><strong>三重</strong></span></h2> 
+                                                <p class="tm-figure-description">在同場比賽中擊殺3支小隊的所有3名成員</p>
+                                                <a href="img/三重.jpg">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>                                                                                              
+                                </div>                                 
+                            </div> <!-- .tm-img-gallery-container -->
+                        </div>         
+                    </div>  
+                </li>
+
+                <!-- Page 4 About -->
+                <li>
+                    <div class="cd-full-width">
+                        <div class="container-fluid js-tm-page-content tm-page-width tm-pad-b" data-page-no="4">
+
+                            <div class="tm-about-page">
+                            
+                            	<div class="row tm-white-box-margin-b">
+                                    <div class="col-xs-12">
+                                        <div class="tm-flex">
+                                            <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-2-col-textbox-2 tm-textbox-padding">
+                                                <img src="img/青銅.png" alt="Image" class="img-fluid tm-img">
+                                                <p class="tm-text"><strong>青銅:</strong>0pt~1199pt</p>
+                                            </div>
+                                            <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-2-col-textbox-2 tm-textbox-padding">
+                                                <img src="img/白銀.png" alt="Image" class="img-fluid tm-img">
+                                                <p class="tm-text"><strong>白銀:</strong>1200pt~2799pt</p>     
+                                            </div>
+                                            <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-2-col-textbox-2 tm-textbox-padding">
+                                                <img src="img/黃金.png" alt="Image" class="img-fluid tm-img">
+                                                <p class="tm-text"><strong>黃金:</strong>2800pt~4799pt</p>     
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> 
+                                
+                                <div class="row tm-white-box-margin-b">
+                                    <div class="col-xs-12">
+                                        <div class="tm-flex">
+                                            <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-2-col-textbox-2 tm-textbox-padding">
+                                                <img src="img/白金.png" alt="Image" class="img-fluid tm-img">
+                                                <p class="tm-text"><strong>白金:</strong>4800pt~7199pt</p>
+                                            </div>
+                                            <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-2-col-textbox-2 tm-textbox-padding">
+                                                <img src="img/鑽石.png" alt="Image" class="img-fluid tm-img">
+                                                <p class="tm-text"><strong>鑽石:</strong>7200pt~9999pt</p>     
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>  
+
+                                
+                                
+                                <div class="row tm-white-box-margin-b">
+                                    <div class="col-xs-12">
+                                        <div class="tm-flex">
+                                            <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-textbox-padding">
+                                                <img src="img/大師.png" alt="Image" class="img-fluid tm-img">
+                                                <img src="img/頂獵.png" alt="Image" class="img-fluid tm-img">
+                                                <p class="tm-text"><strong>大師、頂獵:</strong>10000pt~世界前750名</p>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                                                   
+                        </div>              
+                    </div> <!-- .cd-full-width -->
+
+                </li>
+
+                <!-- Page 5 Contact Us -->
+                <li>
+                    <div class="cd-full-width">
+                        <div class="container-fluid js-tm-page-content tm-page-pad" data-page-no="5">
+                                                            
+                                <div class="container">
+                                    <div class="row">
+                                        
+                                <div style="text-align:center;" id ="a"></div>
+                            <div class="container">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="d-flex justify-content-center">
+                                                <h3><iframe width="560" height="315" src="https://www.youtube.com/embed/8KWMwl-Qd0E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></h3>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="d-flex justify-content-center">
+                                                <h3><iframe width="560" height="315" src="https://www.youtube.com/embed/NKOVl6F8bjA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></h3>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="d-flex justify-content-center">
+                                                <h3><iframe width="560" height="315" src="https://www.youtube.com/embed/Z-xDoDSDM2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></h3>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="d-flex justify-content-center">
+                                                <h3><iframe width="560" height="315" src="https://www.youtube.com/embed/OAWsJ-m1dV0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></h3>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="d-flex justify-content-center">
+                                                <h3><iframe width="560" height="315" src="https://www.youtube.com/embed/aprRC9PNMNU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></h3>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="d-flex justify-content-center">
+                                                <h3><iframe width="560" height="315" src="https://www.youtube.com/embed/J97jqbygmPU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></h3>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            
+                                
+
+                        </div>
+                        
+                    </div> <!-- .cd-full-width -->
+                </li>
+            </ul> <!-- .cd-hero-slider -->
+            
+            <footer class="tm-footer">
+            
+                
+                
+                 
+                
+                 
+            </footer>
+                    
+        </div> <!-- .cd-hero -->
+        
+
+        <!-- Preloader, https://ihatetomatoes.net/create-custom-preloading-screen/ -->
+        <div id="loader-wrapper">
+            
+            <div id="loader"></div>
+            <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+
+        </div>
+        
+        <!-- load JS files -->
+        
+        <script src="js/tether.min.js"></script> <!-- Tether (http://tether.io/)  --> 
+        <script src="js/bootstrap.min.js"></script>             <!-- Bootstrap js (v4-alpha.getbootstrap.com/) -->
+        <script src="js/hero-slider-main.js"></script>          <!-- Hero slider (https://codyhouse.co/gem/hero-slider/) -->
+        <script src="js/jquery.magnific-popup.min.js"></script> <!-- Magnific popup (http://dimsemenov.com/plugins/magnific-popup/) -->
+        
+        <script>
+
+            function adjustHeightOfPage(pageNo) {
+
+                var pageContentHeight = 0;
+
+                var pageType = $('div[data-page-no="' + pageNo + '"]').data("page-type");
+
+                if( pageType != undefined && pageType == "gallery") {
+                    pageContentHeight = $(".cd-hero-slider li:nth-of-type(" + pageNo + ") .tm-img-gallery-container").height();
+                }
+                else {
+                    pageContentHeight = $(".cd-hero-slider li:nth-of-type(" + pageNo + ") .js-tm-page-content").height() + 20;
+                }
+               
+                // Get the page height
+                var totalPageHeight = $('.cd-slider-nav').height()
+                                        + pageContentHeight
+                                        + $('.tm-footer').outerHeight();
+
+                // Adjust layout based on page height and window height
+                if(totalPageHeight > $(window).height()) 
+                {
+                    $('.cd-hero-slider').addClass('small-screen');
+                    $('.cd-hero-slider li:nth-of-type(' + pageNo + ')').css("min-height", totalPageHeight + "px");
+                }
+                else 
+                {
+                    $('.cd-hero-slider').removeClass('small-screen');
+                    $('.cd-hero-slider li:nth-of-type(' + pageNo + ')').css("min-height", "100%");
+                }
+            }
+
+            /*
+                Everything is loaded including images.
+            */
+            $(window).load(function(){
+
+                adjustHeightOfPage(1); // Adjust page height
+
+                /* Gallery One pop up
+                -----------------------------------------*/
+                $('.gallery-one').magnificPopup({
+                    delegate: 'a', // child items selector, by clicking on it popup will open
+                    type: 'image',
+                    gallery:{enabled:true}                
+                });
+				
+				/* Gallery Two pop up
+                -----------------------------------------*/
+				$('.gallery-two').magnificPopup({
+                    delegate: 'a',
+                    type: 'image',
+                    gallery:{enabled:true}                
+                });
+
+                /* Gallery Three pop up
+                -----------------------------------------*/
+                $('.gallery-three').magnificPopup({
+                    delegate: 'a',
+                    type: 'image',
+                    gallery:{enabled:true}                
+                });
+
+                /* Collapse menu after click 
+                -----------------------------------------*/
+                $('#tmNavbar a').click(function(){
+                    $('#tmNavbar').collapse('hide');
+
+                    adjustHeightOfPage($(this).data("no")); // Adjust page height       
+                });
+
+                /* Browser resized 
+                -----------------------------------------*/
+                $( window ).resize(function() {
+                    var currentPageNo = $(".cd-hero-slider li.selected .js-tm-page-content").data("page-no");
+                    
+                    // wait 3 seconds
+                    setTimeout(function() {
+                        adjustHeightOfPage( currentPageNo );
+                    }, 1000);
+                    
+                });
+        
+                // Remove preloader (https://ihatetomatoes.net/create-custom-preloading-screen/)
+                $('body').addClass('loaded');
+
+                // Write current year in copyright text.
+                $(".tm-copyright-year").text(new Date().getFullYear());
+                           
+            });
+
+            /* Google map
+            ------------------------------------------------*/
+            var map = '';
+            var center;
+
+            function initialize() {
+                var mapOptions = {
+                    zoom: 13,
+                    center: new google.maps.LatLng(37.779724, -122.452152),
+                    scrollwheel: false
+                };
+            
+                map = new google.maps.Map(document.getElementById('google-map'),  mapOptions);
+
+                google.maps.event.addDomListener(map, 'idle', function() {
+                  calculateCenter();
+                });
+            
+                google.maps.event.addDomListener(window, 'resize', function() {
+                  map.setCenter(center);
+                });
+            }
+
+            function calculateCenter() {
+                center = map.getCenter();
+            }
+
+            function loadGoogleMap(){
+                var script = document.createElement('script');
+                script.type = 'text/javascript';
+                script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&' + 'callback=initialize';
+                document.body.appendChild(script);
+            }
+        
+            // DOM is ready
+            $(function() {   
+                loadGoogleMap(); // Google Map
+            });
+
+        </script>            
+
+</body>
+</html>
